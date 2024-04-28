@@ -1,0 +1,131 @@
+body{
+    background: #599dc3;
+}
+.register-box{
+    width: 35dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5dvw;
+    margin-top: 1dvh;
+    border-radius: 25px;
+    background: #599dc3;
+    box-shadow:  8px 8px 16px #457a98,
+             -8px -8px 16px #6dc0ee;
+}
+
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.4em;
+    background-color: #599dc3;
+    transition: .4s ease-in-out
+    
+  }
+  
+  #heading {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+  }
+  
+  .field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    border-radius: 25px;
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #97d3e4;
+    
+  }
+  
+  .input-field {
+    background: none;
+    border: none;
+    outline: none;
+    height: 3dvh;
+    width: 15dvw;
+    color: #000000;
+    font-size: large;
+  }
+  
+  .form .btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: em;
+  }
+  
+  .button1 {
+    padding: 0.5em;
+    padding-left: 1.1em;
+    padding-right: 1.1em;
+    border-radius: 5px;
+    margin-right: 0.5em;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #17224a;
+    color: white;
+  }
+  
+  .button1:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: row;
+  }
+  img{
+    margin-left: 17.5dvw;
+    margin-top: 10dvh;
+    height:50dvh;
+  }
+  .text{
+    margin-left: 5dvw;
+    font-style: italic;
+    font-size: larger;
+    text-align: center;
+  }
+  #text{
+    font-size: 25px;
+  }
+  ::placeholder{
+    color: #4d4b4b;
+  }
+  [type="date"],select{
+    height: 5dvh;
+    background-color: #97d3e4;
+    border-radius: 25px;
+    text-align: center;
+    border: none;
+    color: #4d4b4b;
+    font-size: large;
+  }
+  [type="date"]{
+    width : 10dvw;
+    margin-left: 2dvw;
+  }
+  select{
+    width : 10dvw;
+    margin-left: 6dvw;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  .log{
+    margin-top: 1dvh;
+  }

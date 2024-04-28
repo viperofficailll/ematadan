@@ -1,0 +1,144 @@
+body{
+    background: #599dc3;
+}
+.login-box{
+    width: 35dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5dvw;
+    margin-top: 20dvh;
+    background: #599dc3;
+}
+
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.4em;
+    background-color: #599dc3;
+    border-radius: 25px;
+    transition: .4s ease-in-out;
+    background: #599dc3;
+    box-shadow:  8px 8px 16px #457a98,
+             -8px -8px 16px #6dc0ee;
+  }
+  
+  #heading {
+    text-align: center;
+    margin: 1em;
+    color: rgb(255, 255, 255);
+    font-size: 2.5em;
+  }
+  
+  .field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    border-radius: 25px;
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #97d3e4;
+    
+  }
+  
+  .input-field {
+    background: none;
+    border: none;
+    outline: none;
+    height: 4dvh;
+    width: 15dvw;
+    color: #000000;
+    font-size: large;
+  }
+  
+  .form .btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 2.5em;
+  }
+  
+  .button1 {
+    padding: 0.5em;
+    padding-left: 1.1em;
+    padding-right: 1.1em;
+    border-radius: 5px;
+    margin-right: 0.5em;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #17224a;
+    color: white;
+    width:8dvw;
+  }
+  
+  .button1:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .button2 {
+    padding: 0.5em;
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #17224a;
+    color: white;
+    width:8dvw;
+  }
+  
+  .button2:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  
+  
+  .button3 {
+    margin-bottom: 3em;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #38679f;
+    color: white;
+  }
+  
+  .button3:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+  }
+  .container{
+    display: flex;
+    flex-direction: row;
+  }
+  img{
+    margin-left: 17.5dvw;
+    margin-top: 10dvh;
+    height:50dvh;
+  }
+  .text{
+    margin-left: 5dvw;
+    font-style: italic;
+    font-size: larger;
+    text-align: center;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }

@@ -1,0 +1,41 @@
+body{
+    background: #599dc3;
+    font-size: 2em;
+}
+.header {
+    margin: 1em;
+    display: flex;
+    flex-direction: row;
+}
+.row_div{
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+}
+
+.logo {
+    width: 75dvw;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+table{
+    border: 3px solid rgb(0, 0, 0);
+    width: 60dvw;
+    margin-top: 2dvh;
+    margin-left: 2dvw;
+}
+th,td,tr{
+    border: 3px solid black;
+}
+th{background-color: #3a6d85;}
+tr{
+    background-color: #3c738d;
+}
+.candidates {
+    width:65dvw;
+    height: auto;
+    max-width: fit-content;
+    margin-inline: auto;
+    overflow:auto;
+}

@@ -1,0 +1,122 @@
+body{
+    background: #599dc3;
+    font-size: 2em;
+}
+.header {
+    margin: 1em;
+    display: flex;
+    flex-direction: row;
+}
+.col_div{
+    display: flex;
+    flex-direction: column;
+    margin:1em;
+}
+.row_div{
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+}
+.status_add{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 75dvw;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.logout {
+    width: 25dvw;
+    display: flex;
+    justify-content:center;
+}
+.voting_status{
+    width: 40dvw;
+    padding: 1em;
+    margin-bottom: 5dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.add_candidates{
+    width: 25dvw;
+    padding: 1em;
+    margin-bottom: 5dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.candidates {
+    width:75dvw;
+    height: 42dvh;
+    display: flex;
+    flex-direction: column;
+    overflow:auto;
+}
+.tools {
+    width: 100dvw;
+    height: 70dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+table{
+    border: 3px solid rgb(0, 0, 0);
+    width: 70dvw;
+    margin-top: 2dvh;
+    margin-left: 2dvw;
+}
+th,td,tr{
+    border: 3px solid black;
+}
+th{background-color: #3a6d85;}
+tr{
+    background-color: #3c738d;
+}
+.voting_status,.candidates,.tools,.add_candidates{
+    border-radius: 25px;
+    box-shadow:  8px 8px 16px #457a98,
+             -8px -8px 16px #6dc0ee;
+}
+.start,.stop,.reset{
+    width: 12dvw;
+    height: 15dvh;
+}
+.start{
+    background-color: green;
+    border-radius: 10px;
+}
+.stop{
+    background-color: red;
+    border-radius: 10px;
+}
+.reset{
+    background-color: rgb(219, 219, 30);
+    border-radius: 10px;
+    color: black;
+}
+.add{
+    background-color: green;
+    width: 20dvw;
+    height: 10dvh;
+    border-radius: 10px;
+}
+button:hover{
+    border: 2px solid black;
+    cursor: pointer;
+}
+.tools{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+button{
+    font-size: 35px;
+    color: white;
+}
